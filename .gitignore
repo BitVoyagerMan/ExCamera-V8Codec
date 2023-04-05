@@ -1,32 +1,65 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+*.a
+*.o
+.deps
+Makefile
+Makefile.in
+*.log
+*.trs
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+/INSTALL
+/aclocal.m4
+/ar-lib
+/autom4te.cache
+/compile
+/config.guess
+/config.h
+/config.h.in
+/config.h.in~
+/config.log
+/config.status
+/config.sub
+/configure
+/depcomp
+/install-sh
+/libtool
+/ltmain.sh
+/missing
+/alfalfa-*.tar.gz
+/stamp-h1
+/test-driver
 
-# testing
-/coverage
+/src/tags
 
-# next.js
-/.next/
-/out/
+/src/frontend/vp8play
+/src/frontend/vp8decode
+/src/frontend/xc-enc
+/src/frontend/xc-ssim
+/src/frontend/xc-dissect
+/src/frontend/xc-framesize
+/src/frontend/comp-states
+/src/frontend/xc-dump
+/src/frontend/xc-diff
+/src/frontend/xc-merge
+/src/frontend/xc-decode-bundle
+/src/frontend/xc-terminate-chunk
+/src/frontend/xc-zero-out-residues
 
-# production
-/build
+/src/salsify/salsify-sender
+/src/salsify/salsify-receiver
+/src/salsify/fake-webcam
+/src/salsify/real-webcam
+/src/salsify/display-jpeg
 
-# misc
-.DS_Store
-*.pem
+/src/tests/decode-to-stdout
+/src/tests/encode-loopback
+/src/tests/extract-key-frames
+/src/tests/roundtrip
+/src/tests/ivfcopy
+/src/tests/ivfcompare
+/src/tests/serdes-test
+/src/tests/playability_test/
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# local env files
-.env*.local
-
-# vercel
-.vercel
+/src/tests/test_vectors/
+/src/tests/encoder_test_vectors/
+/src/tests/encoder_output/
+/src/tests/convergence_test/
